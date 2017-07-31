@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=6.5",
+    "npm": ">=3.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.4",
+    "oauth2orize": "^1.8.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-http-bearer": "^1.0.1",
+    "randomstring": "^1.1.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
